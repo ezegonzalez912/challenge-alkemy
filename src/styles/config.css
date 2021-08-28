@@ -30,6 +30,16 @@
     background: #4C22B0;
 }
 
+.btn-warning{
+    background: #d43c3c;
+    border: 1px solid #d43c3c;
+}
+
+.btn-warning:hover{
+    background: #ac3030;
+    border: 1px solid #ac3030;
+}
+
 button:disabled,
 button[disabled]{
     opacity: .6;
