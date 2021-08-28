@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const heroesByName = (name) => {
 
-    const accessToken = process.env.REACT_APP_ACCESS_TOKEN
+    const accessToken = 379932106978719 //Deberia ser un .env
 
     const api_URL = `https://superheroapi.com/api.php/${accessToken}`;
 
