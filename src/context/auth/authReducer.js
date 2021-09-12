@@ -2,7 +2,7 @@ import { types } from "../../types/types";
 
 export const initialUser = JSON.parse(localStorage.getItem("user-hero_app")) || {
     token: null,
-    logged: true
+    logged: false
 }
 
 export const authReducer = (state, action) => {
