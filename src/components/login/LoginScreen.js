@@ -51,6 +51,7 @@ export const LoginScreen = () => {
                     </Formik>
                     {error && <p className="login_form-msg">Email or password incorrect.</p>}
                 </div>
+                <p className="msg-prod">Correct email and password in the repository</p>
             </div>
         </div>
     )
